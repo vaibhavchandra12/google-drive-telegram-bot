@@ -6,8 +6,8 @@ class config:
     SUDO_USERS = "1468309042" # Sepearted by space.
     SUPPORT_CHAT_LINK = "https://t.me/joinchat/84kkMDjsbv1iNDFl"
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
+    G_DRIVE_CLIENT_ID = "325431953366-jbf3pe5bt85s4g932bl0an8hlqvjham6.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "ri1Pl4JZdgIFAdJEPRX4VeeG"
 
 
 class BotCommands:
@@ -21,7 +21,7 @@ class BotCommands:
   YtDl = ['ytdl']
 
 class Messages:
-    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
+    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help. Don't forget to authorize me by using /auth.__"
 
     HELP_MSG = [
         ".",
